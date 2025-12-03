@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 // root route
 app.get('/', (req, res) => {
-  res.type('text').send('Hello, World!');
+  res.type('text').send('Hello from A');
 });
 
 // about route requested in assignment
